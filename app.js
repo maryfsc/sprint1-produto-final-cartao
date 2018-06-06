@@ -9,4 +9,16 @@ function isValidCard(stringCardNumber) {
     numberToValidate.push(stringToNumber);
   }
 
+  var evenPositions = [];
+
+  for (j = 1; j < numberToValidate.length; j = j + 1){
+  var multiplyingElement = numberToValidate[j] * 2;
+  if (multiplyingElement > 9) {
+    multiplyingElement -= 9;
+    }
+  evenPositions.push(multiplyingElement);
+  }
+  
+
+  return evenPositions;
 }
