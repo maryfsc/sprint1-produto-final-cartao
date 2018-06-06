@@ -1,6 +1,11 @@
 # sprint1-produto-final-cartao
 Um dos produtos finais do Sprint 1 da Laboratória SP 2018-1: Validador de Cartão de Crédito usando o algoritmo de Luhn.
 
+Fluxograma:
+
+![Validador de Cartão de Crédito usando algoritmo de Luhn](./fluxogram.jpeg)
+
+
 No evento de clique no botão do formulário HTML, após input do usuário com o número do cartão, executa a função JavaScript isValidCard().
 
 Variável stringCardNumber recebe o input do usuário, coletado do formulário HTML, como string.
