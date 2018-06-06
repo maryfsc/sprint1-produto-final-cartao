@@ -5,6 +5,8 @@ No evento de clique no botão do formulário HTML, após input do usuário com o
 
 Variável stringCardNumber recebe o input do usuário, coletado do formulário HTML, como string.
 
+Na condicional, se stringCardNumber for uma string vazia, surge o alerta 'Digite o número do cartão!'. Se não, segue os próximos passos da função.
+
 Variável reversedStringArray recebe o número em string de stringCardNumber, transforma em array separando os elementos e retorna uma array dos números do cartão em ordem inversa, ainda em string.
 
 Cria-se uma array vazia chamada numberToValidate.
