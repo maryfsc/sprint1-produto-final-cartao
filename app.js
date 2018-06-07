@@ -1,11 +1,11 @@
 function isValidCard(){
   var stringCardNumber = document.getElementById('card-number').value;
-  
+
   if (stringCardNumber === '') {
     alert('Digite os números do cartão!');
   } else { 
     var reversedStringArray = stringCardNumber.split('').reverse();
-  
+
     var numberToValidate = [];
 
     for (i = 0; i < reversedStringArray.length; i++){
@@ -22,8 +22,8 @@ function isValidCard(){
       }
 
       if (multiplyingElement != numberToValidate[j]){
-         numberToValidate[j] = multiplyingElement;
-      }   
+        numberToValidate[j] = multiplyingElement;
+      }
     } 
 
     var finalCardNumber = 0;
