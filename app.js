@@ -1,6 +1,7 @@
 function cardValidator(input){
-  let arrayNumber = Array.from(input.toString()).map(Number).reverse();
-  return arrayNumber;
+  let reversedNumber = Array.from(input.toString()).map(Number).reverse();
+  let singleDigitNumber = reversedNumber.map(num => findEvenDigits(num, 0));
+  
 }
 
 function findEvenDigits(digit, index) {
